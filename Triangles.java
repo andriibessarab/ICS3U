@@ -8,11 +8,12 @@ public class Triangles
 
         System.out.print("Enter size of first triangle: ");
         int x = scan.nextInt();
-        triangle1(x);
-
         System.out.print("Enter size of second triangle: ");
         int y = scan.nextInt();
         triangle2(y);
+        triangle1(x);
+        triangle2(y);
+
     }
 
 
